@@ -1,3 +1,20 @@
+<?php
+
+$to ="contactbasith.h@gmail.com";
+subject="Email from your website";
+
+$name =$_POST['name'];
+$phone=$_POST['phone'];
+$email=$_POST['email'];
+$message=$POST['message'];
+
+$headers .="Content-type: text/html;\r\n";
+$headers .="From:$email";
+
+mail($to, #subject, $comment, $headers);
+echo "Email has been sent ! Thank you $name";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -396,21 +413,21 @@
 <div class="col-lg-8">
 <div class="formbox text-center">
   <h6 class="contacthead">Contact Me</h6>
-  <form class="forms">
+  <form action=process.php" method="POST" class="forms">
     <div class="form-group">
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name">
+      <input type="text" name="name" class="form-control" id="name" id="formGroupExampleInput" placeholder="Full Name">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone">
+      <input type="text" class="form-control"  name="phone"  id="phone" id="formGroupExampleInput2" placeholder="Phone">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+      <input type="text" class="form-control" name="email" id="email"  id="formGroupExampleInput2" placeholder="Email">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control formheight" id="formGroupExampleInput2" style="height: 100px;" placeholder="Your Message">
+      <input type="text" class="form-control formheight" name="message"  id="message"  id="formGroupExampleInput2" style="height: 100px;" placeholder="Your Message">
     </div>
   </form>
-  <button type="button" class=" btn btcolor" style="background-color: #7510f7; color: #ffffff;">Send</button>
+  <button type="submit" name="submit id="submit"  value="submit" class=" btn btcolor" style="background-color: #7510f7; color: #ffffff;">Send</button>
 </div>
 </div>
 
