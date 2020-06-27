@@ -1,0 +1,708 @@
+.navtext
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/***** banner text******/
+
+.carousel-caption
+{
+margin: 15%;
+color: black;
+width:600px;
+margin-left: 0;
+}
+
+.b1heading1
+{
+    color: #1b1b1b;
+    float: left;
+    font-size:65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    float: left;
+}
+
+
+
+.b2heading1
+{
+    color:#ffffff;
+    font-size:65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    float: left;
+    text-align: left;
+    line-height: 75px;
+}
+
+.b1heading2
+{
+    color: #49d9eb;
+    font-size:65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-top:-20px;
+}
+
+.b1text1 
+{
+    font-size: 18px;
+    color: #1b1b1b;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-align: left;
+}
+
+.b2text1 
+{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-align: left;
+}
+
+
+
+.carousel-control-prev-icon {
+    color: #49d9eb;
+    font-size: 50px;
+  }
+  
+  .carousel-control-next-icon {
+    color: #49d9eb;
+    font-size: 50px;
+  }
+
+/****************************************  About Us**********************************************************/
+
+
+.aboutbanner
+{
+    background-image: url(../images/aboutbanner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+
+.aboutus1
+{
+    margin-top: 100px;
+    font-size: 45px;
+    color: #1b1b1b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.aboutus2
+{
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.aboutustext
+{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;   
+    line-height:22px;
+}
+
+.icon
+{
+
+    margin-top: 10px;
+    color: #49d9eb;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+
+.iconwb1
+{
+    text-align: center;
+    width: 150px;
+    float: right;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow:  2px 2px 4px;
+}
+
+.iconwb2
+{
+    text-align: center;
+    width: 150px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow:  2px 2px 4px;
+}
+
+
+.iconwb3
+{
+    text-align: center;
+    width: 150px;
+    float: left;
+    border-radius: 5px;
+    margin: 20px 0px 0px 80px;
+    box-shadow:  2px 2px 4px;
+}
+
+
+.iconwb4
+{
+    text-align: center;
+    width: 150px;
+    float: left;
+    border-radius: 5px;
+    margin: 20px 0px 60px 40px;
+    box-shadow:  2px 2px 4px;
+}
+
+.miconwb3
+{
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow:  2px 2px 4px; 
+}
+
+
+.miconwb4
+{
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow:  2px 2px 4px;  
+}
+
+.icontext
+{
+  margin: 30px 0px 20px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*************************************FEATURE OD FLUTTER***************************************************************/
+
+
+.mobile
+{
+    background-image: url(../images/mobile.png);
+    background-size: cover;
+    width: 100%;
+    height:650px;
+    margin-top: 50px;
+}
+
+.ffl
+{
+    text-align: center;
+    font-size: 45px;
+    padding-top:60px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.fflshr
+{
+    text-align: right;   
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+.ffltr
+{
+    text-align:right;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.fflicon
+{
+    font-size: 50px;
+    margin: auto;
+}
+
+.fflshl
+{
+    text-align: left;   
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.ffltl
+{
+    text-align:left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.flicon
+{    
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 80px;
+height: 80px;
+}
+
+.mt1
+{
+    margin-top: 50px;
+}
+
+.bluebanner
+{
+    background-image: url(../images/bluebanner.jpg);
+    background-size: cover;
+    width: 100%;
+    height:550px;
+}
+
+/**********************************************************Why Flutter*************************************************/
+
+.whyh
+{
+    font-size: 38px;
+    color: #09589d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.whyt
+{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.bluecolor
+{
+    color: #09589d;  
+}
+
+/*********************************************************************** Blog************************************************************************/
+
+.blogh
+{
+    font-size: 38px;
+    color: #09589d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 60px;  
+    text-align: center;  
+}
+
+.blogsh
+{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+.blogsh1
+{
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+.wimg
+{
+    max-width: 100%;
+
+}
+
+.blogt
+{
+    margin: 20px 10px 10px 10px ;
+}
+
+
+.mb5
+{
+    margin-bottom:50px;
+}
+/************************************************************************ COntact Form***************************************************************/
+
+
+.formh
+{
+    font-size: 35px;
+    padding-top: 110px;
+    color: #09589d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contactus
+{
+    background-image: url(../images/contactus.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 690px;
+}
+
+.mt3
+{
+    margin-top: 30px;
+}
+
+.mt5
+{
+    margin-top: 50px;
+}
+
+
+
+
+/*******************************************************************************************************************************************************************/
+/*******************************************************************************************************************************************************************/
+
+
+@media only screen and (min-width: 320px) and (max-width:380px)
+{
+
+.sliderr
+{
+    display: none;
+}
+
+.mbanner
+{
+    background-image: url(../images/mbanner.png);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+
+.b1heading1
+{
+    color: #1b1b1b;
+    font-size:28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 15px 0px 10px 20px;
+}
+
+
+
+.b1heading2
+{
+    color: #ffffff;
+    font-size:28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: -10px 0px 10px 20px;
+}
+
+.b1text1 
+{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: -1px 30px 10px 20px;
+}
+
+
+/****************************************** About us***************************************/
+.aboutbanner
+{
+    background-image: url(../images/mabout.png);
+    background-size: cover;
+    width: 100%;
+    height: 1080px;
+}
+
+.aboutus1
+{
+    margin-top: 50px;
+    font-size: 26px;
+    color: #1b1b1b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.aboutus2
+{
+    color: #ffffff;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.maboutustext
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;   
+    line-height:22px;
+}
+
+
+.aboutustext
+{
+    display: none;
+}
+
+
+.iconwb1
+{
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 4px;
+}
+
+.pdiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconwb3
+{
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 4px;
+}
+
+
+.iconwb4
+{
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow:  2px 2px 4px;
+}
+
+.iconwb3
+{
+    display: none;
+}
+
+.iconwb4
+{
+    display: none;
+}
+
+/******************************************************************** Flutter****************************************************************/
+
+
+.ffl
+{
+    text-align: center;
+    font-size: 26px;
+    padding-top:10px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+    line-height: 37px;
+}
+
+.mhide
+{
+    display: none;
+}
+
+
+.fflshl
+{
+    text-align: left;   
+    font-size: 18px;
+    color: #09589d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+}
+
+.ffltl
+{
+    text-align:left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+
+/*********************blue banner*************/
+
+.bluebannerm
+{
+background-image: url(../images/bluebannerm.jpg);
+background-size: cover;
+width: 100%;
+height: 540px;
+margin-top: 40px;
+}
+
+
+.whyh
+{
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.whyt
+{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.bluecolor
+{
+    color: #09589d;  
+}
+
+
+/********************************************************blog*****************************************************************/
+
+.blogh
+{
+    font-size: 26px;
+    color: #09589d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;  
+    text-align: center;  
+}
+
+.blogsh
+{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+
+.blogsh1
+{
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+.wimg
+{
+    max-width: 100%;
+    padding: 15px;
+}
+
+.blogt
+{
+    margin: 10px 5px 5px 5px ;
+}
+
+
+.mb5
+{
+    margin-bottom:50px;
+}
+
+
+/************************************************************************ COntact Form***************************************************************/
+
+
+.formh
+{
+    font-size: 26px;
+    padding-top: 30px;
+    color: #020202;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contactus
+{
+    background-image: url(../images/contactusm.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 690px;
+    margin-top: 20px;
+}
+
+.mt3
+{
+    margin-top: 30px;
+}
+
+.mt5
+{
+    margin-top: 50px;
+}
+
+
+.contactmh
+{
+    margin-top: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/**********************************************************************************************************************************/
+
+
+@media only screen and (min-width: 1200px) and (max-width:2000px)
+{
+
+.mbanner
+{
+    display: none;
+}
+
+.maboutustext
+{
+  display: none;
+}
+
+.shide
+{
+    display: none;
+}
+
+}

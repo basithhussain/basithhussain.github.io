@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/> <!----Awesome font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">  <!----Google font link Roboto-->
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script xrc="assets/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<!------------------------------------------------------ Navbar ------------------------------------------------------------>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item text-center">
+              <a class="nav-link navtext" href="#home">Home </a>
+            </li>
+            <li class="nav-item  text-center">
+              <a class="nav-link navtext" href="#about">About Us</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link navtext" href="#feature">Feature</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link navtext" href="#blogs">Blog</a>
+            </li>
+              <li class="nav-item text-center">
+                <a class="nav-link navtext " href="#contact" >Contact Us</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div id="carouselExampleCaptions" class="carousel slide sliderr" data-ride="carousel">
+     <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="assets/images/banner1.jpg" class="d-block  w-100" alt="...">
+            <div class="carousel-caption">
+
+            <table>
+              <tr>
+                <th class="b1heading1">Welcome To:</th>
+              </tr>
+              <tr>
+                <td class="b1heading2">Flutter Launcher</td>
+              </tr>
+              <tr>
+                <td class="b1text1">WE CREATE PRODUCTS AND SERVICES FOR A CONNECTED WORLD.</td>
+              </tr>
+            </table>
+         
+              
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/images/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <table>
+                <tr>
+                  <th class="b2heading1">BEST IN CLASS DEVELOPMENT</th>
+                </tr>
+                <tr>
+                  <td class="b2text1">Enhance Your Business Ideas With Powerful, <br> 
+                    Responsive, Elegant FlutterLab Apps.</td>
+                </tr>
+              </table>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/banner3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <table>
+                <tr>
+                  <th class="b2heading1">ONE CODE FOR ANDROID & IOS</th>
+                </tr>
+                <tr>
+                  <td class="b2text1">GET PREMIUM APPS HANDCRAFTED FOR BOTH ANDROID & IOS..</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"><i class="fas fa-chevron-left"></i> </span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"><i class="fas fa-chevron-right"></i> </span>
+        </a>
+
+      </div>
+
+
+
+<div class="conatiner-fluid mbanner">
+
+
+      <h6 class="b1heading1">Welcome To:</h6>
+
+      <h6 class="b1heading2">Flutter Launcher</h6>
+
+      <h6 class="b1text1">WE CREATE PRODUCTS AND SERVICES FOR A CONNECTED WORLD.</h6>
+
+</div>
+
+
+<!------------------------------------------------------About Us ------------------------------------------------------------>
+<div class="container-fluid aboutbanner" id="about">    
+<div class="container">
+  <div class="row">
+   
+<div class="col-lg-6">
+
+</div>
+
+
+<div class="col-lg-6">
+<div class="row">
+
+  <div class="col-lg-12">  <h6 class="aboutus1">ABOUT </h6>  </div>
+  <div class="col-lg-12">  <h6 class="aboutus2">FLUTTER LANCER</h6>  </div>
+  <div class="col-lg-12" style="color:#ffffff;"> <h6 class="aboutustext">FlutterLab Is Dynamic & High-Performance Development Shop <br> That Specialized In Flutter And Native Mobile Development Including <br> 
+    Android & IOS. We Focus On The Attractive Designs And <br> Easy Customizable Features.</h6>  </div>
+
+<div class="col-lg-12" style="color:#ffffff;"> <h6 class="maboutustext">FlutterLab Is Dynamic & High-Performance Development Shop That Specialized In Flutter And Native Mobile Development Including Android & IOS. We Focus On The Attractive Designs And Easy Customizable Features.</h6>  </div>
+
+<div class="col-lg-4  pdiv"> <div style="background-color:#ffffff;" class="iconwb1"> <img src="assets/images/ec.png" class="icon" alt=""> <h6 class="icontext">Easy Customize</h6></div>  </div>
+<div class="col-lg-4 pdiv "> <div style="background-color:#ffffff;" class="iconwb2"> <img src="assets/images/nd.png" class="icon" alt=""> <h6 class="icontext">Nice Design</h6></div> </div>
+<div class="col-lg-4"></div>
+
+<div class="col-lg-4 pdiv shide ">  <div style="background-color:#ffffff;" class="miconwb3"> <img src="assets/images/cp.png" class="icon" alt=""> <h6 class="icontext">Cross-Platform</h6></div>   </div>
+<div class="col-lg-4 pdiv shide">   <div style="background-color:#ffffff;" class="miconwb4"> <img src="assets/images/etu.png" class="icon" alt=""> <h6 class="icontext">Easy To Use</h6></div>  </div>
+
+<div class="col-lg-12 ">
+  <div style="background-color:#ffffff;" class="iconwb3"> <img src="assets/images/cp.png" class="icon" alt=""> <h6 class="icontext">Cross-Platform</h6></div> 
+  <div style="background-color:#ffffff;" class="iconwb4"> <img src="assets/images/etu.png" class="icon" alt=""> <h6 class="icontext">Easy To Use</h6></div> 
+</div>
+
+
+
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+<!------------------------------------------------------Feature of Futter ------------------------------------------------------------>
+
+<div class="container-fluid mobile mhide" id="feature">
+
+
+<h6 class="col-lg-12 ffl"> <span style="color: #1b1b1b;">FEATURES OF </span> <span style="color: #49d9eb;">FLATTER LANCER</span> </h6>
+
+<div class="row">
+<div class="col-lg-4"> 
+<div class="row">
+  
+  <div class="col-lg-10 mt1">
+    <div class="fflshr  col-lg-12">User Friendly</div>
+    <div class="ffltr col-lg-12">We Blieve That People Would Ignore Design That Ignores People. So We Design Our Applications To Behave Like A Likeable Person: Respectful, Generous And Helpful.</div>
+    </div>
+    <div class="col-lg-2 mt1 mhide"> <img src="assets/images/uf.png" class="flicon" alt=""> </i></div>
+  
+    <div class="col-lg-10">
+      <div class="fflshr col-lg-12">High Performance</div>
+      <div class="ffltr col-lg-12">The Key To Performance Is Elegance. Ours Apps Are Smooth And Efficient From The Ground And Up.</div>
+      </div>
+      <div class="col-lg-2 mhide"> <img src="assets/images/hp.png" class="flicon" alt=""></div>
+  
+      <div class="col-lg-10">
+        <div class="fflshr col-lg-12">Unlimited Features</div>
+        <div class="ffltr col-lg-12">We Strive To Match The Expectations Of Our Clients. We Don't Fear Any Challenge And Always Build New Ideas.</div>
+        </div>
+        <div class="col-lg-2 mhide"><img src="assets/images/unf.png" class="flicon" alt=""></div>            
+</div>
+</div>
+
+<div class="col-lg-4">
+</div>
+
+<div class="col-lg-4 ">
+  <div class="row">
+  
+    <div class="col-lg-2 mt1"><img src="assets/images/ud.png" class="flicon" alt=""></div>
+    <div class="col-lg-10 mt1">
+      <div class="fflshl col-lg-12">Quick Update</div>
+      <div class="ffltl col-lg-12">We Always Strive For A Great Software Architecture, This Can Only Be Achieved By Making Software Easy To Change. Quick Turnovers From An Issue To An Update.</div>
+      </div>
+
+      <div class="col-lg-2"><img src="assets/images/sec.png" class="flicon" alt=""></div>
+      <div class="col-lg-10">
+        <div class="fflshl col-lg-12">Highly Secure</div>
+        <div class="ffltl col-lg-12">We Believe In Security As A First Class Citizen. We Strive To Keep Our Software's Security At Max.</div>
+        </div>
+    
+        <div class="col-lg-2"><img src="assets/images/pf.png" class="flicon" alt=""></div>
+        <div class="col-lg-10 ">
+          <div class="fflshl col-lg-12">Privacy First</div>
+          <div class="ffltl col-lg-12">We Design Our Apps To Protect Users' Data. Privacy Is Previous And We Incorporate That Within Any App We Build And Deploy</div>
+          </div>              
+  </div>
+</div>
+
+  </div>
+</div>
+                                      <!---------------------------------------- Mobile ----------------------------------------->
+
+
+<div class="container-fluid shide">
+<div class="row">
+
+  
+<h6 class="col-lg-12 ffl"> <span style="color: #1b1b1b;">FEATURES OF </span> <br> <span style="color: #49d9eb;">FLATTER LANCER</span> </h6>
+
+<div class="row">
+<div class="col-lg-6"> 
+<div class="row">
+
+
+  <div class="col-lg-12 ">
+    <div class="fflshl col-lg-12"> &#8594; Quick Update</div>
+    <div class="ffltl col-lg-12">We Always Strive For A Great Software Architecture, This Can Only Be Achieved By Making Software Easy To Change. Quick Turnovers From An Issue To An Update.</div>
+    </div>
+
+
+    <div class="col-lg-12">
+      <div class="fflshl col-lg-12"> &#8594; Highly Secure</div>
+      <div class="ffltl col-lg-12">We Believe In Security As A First Class Citizen. We Strive To Keep Our Software's Security At Max.</div>
+      </div>
+  
+
+      <div class="col-lg-12">
+        <div class="fflshl col-lg-12"> &#8594; Privacy First</div>
+        <div class="ffltl col-lg-12">We Design Our Apps To Protect Users' Data. Privacy Is Previous And We Incorporate That Within Any App We Build And Deploy</div>
+        </div>    
+  
+  <div class="col-lg-12">
+    <div class="fflshl  col-lg-12"> &#8594;  User Friendly</div>
+    <div class="ffltl col-lg-12">We Blieve That People Would Ignore Design That Ignores People. So We Design Our Applications To Behave Like A Likeable Person: Respectful, Generous And Helpful.</div>
+    </div>
+
+  
+    <div class="col-lg-12">
+      <div class="fflshl col-lg-12"> &#8594; High Performance</div>
+      <div class="ffltl col-lg-12">The Key To Performance Is Elegance. Ours Apps Are Smooth And Efficient From The Ground And Up.</div>
+      </div>
+  
+      <div class="col-lg-12">
+        <div class="fflshl col-lg-12"> &#8594; Unlimited Features</div>
+        <div class="ffltl col-lg-12">We Strive To Match The Expectations Of Our Clients. We Don't Fear Any Challenge And Always Build New Ideas.</div>
+        </div>
+         
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!------------------------------------------------------------------------Blue banner---------------------------------------------------------------------------------------------->
+
+<div class="container-fluid bluebanner mhide">
+  <div class="container">
+    <div class="row">
+  
+  <div class="col-lg-6">
+  
+    <h6 class="whyh">Why you should opt for Flutter?</h6>
+  <p class="whyt" >Flutter is the only cross-platform framework that provides reactive views without requiring a JavaScript bridge while others fail on the reactive programming part.Flutter Is A 
+    New Way Of Developing Apps Which Run On Both Android And IOS:</p>
+  
+  </div>
+  <div class="col-lg-6"></div>
+  
+  
+  <div class="col-lg-8 whyt">
+    <table>
+      <tr>
+        <td> <span class="bluecolor">&#9673;</span></td>
+        <td> <span style="color: #ffffff;"> Compiler and code libraries allow you to create a single,cross-platform app.</span></td>
+      </tr>
+      <tr>
+        <td> <span class="bluecolor">&#9673;</span></td>
+        <td> <span style="color: #ffffff;"> Includes a comprehensive set of user-interface widgets as standard.</span></td>
+      </tr>
+      <tr>
+        <td> <span class="bluecolor">&#9673;</span></td>
+        <td> <span style="color: #ffffff;"> Developed by Google.</span></td>
+      </tr>
+      <tr>
+        <td> <span class="bluecolor">&#9673;</span></td>
+        <td> <span style="color: #ffffff;"> Free to use; open source licence.</span></td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-lg-4"></div>
+  
+  </div>
+  </div>
+  </div>
+
+  
+
+  
+                                        <!--------------------------mobile-------------------------------------->
+
+<div class="container-fluid bluebannerm">
+  <div class="container">
+    <div class="row">
+  
+  <div class="col-lg-6">
+  
+    <h6 class="whyh">Why you should opt for Flutter?</h6>
+  <p class="whyt" >Flutter is the only cross-platform framework that provides reactive views without requiring a JavaScript bridge while others fail on the reactive programming part.Flutter Is A 
+    New Way Of Developing Apps Which Run On Both Android And IOS:</p>
+  
+  </div>
+  <div class="col-lg-6"></div>
+  
+  
+  <div class="col-lg-8 whyt">
+    <table>
+      <tr>
+
+        <td><span style="color: #000000;">&#9658 </span> <span style="color: #ffffff;"> Compiler and code libraries allow you to create a single,cross-platform app.</span></td>
+      </tr>
+      <tr>
+
+        <td><span style="color: #000000;">&#9658 </span> <span style="color: #ffffff;">Includes a comprehensive set of user-interface widgets as standard.</span></td>
+      </tr>
+      <tr>
+
+        <td> <span style="color: #000000;">&#9658 </span><span style="color: #ffffff;">Developed by Google.</span></td>
+      </tr>
+      <tr>
+
+        <td>  <span style="color: #000000;">&#9658 </span>   <span style="color: #ffffff;"> Free to use; open source licence.</span></td>
+      </tr>
+    </table>
+  </div>
+  <div class="col-lg-4"></div>
+  
+  </div>
+  </div>
+  </div>
+  
+<!------------------------------------------------------------------------ Blog---------------------------------------------------------------------------------------------->
+
+<div class="container" id="blogs">
+<div class="col-lg-12 mt-1"></div>
+<h6 class="col-lg-12 blogh">Our Blog</h6>
+<h6 class="blogsh1 text-center">Get the latest updates on Flutter and tutorials based on Flutter apps from our Blogs.</h6>
+<div class="row">
+
+<div class="col-lg-4 mt3"> 
+  <div class="p-2">
+    <img src="assets/images/w1.png" class="wimg" alt="">
+  </div>
+<h6 class="blogsh">BLOC PATTERN IN FLUTTER</h6>
+<table class="w-100">
+<tr>
+<td><i class="fas fa-user-edit"></i> Aditya Syal</td>
+<td><i class="fas fa-comment"></i> Leave A Comment</td>
+</tr>
+<tr>
+<td><i class="far fa-clock"></i> May 3, 2019</td>
+<td></td>
+</tr>
+</table>
+<p class="blogt">By the title, you must have got an idea about what this article will be. As Flutter is growing day by day and so it’s developers and we as a developer always look for an easy 
+way to deal with the code. So as the title speaks out loud we’ll be covering BLoC pattern in…</p>
+<button type="button mt-1" class="btn btn-primary">Read More</button>
+</div>
+
+<div class="col-lg-4 mt3"> 
+  <div class="p-2">
+    <img src="assets/images/w2.png" class="wimg" alt="">
+  </div>
+<h6 class="blogsh">USING SHAREDPREFERENCES IN FLUTTER</h6>
+<table class="w-100">
+<tr>
+<td><i class="fas fa-user-edit"></i> Ashish Rawat</td>
+<td><i class="fas fa-comment"></i> Leave A Comment</td>
+</tr>
+<tr>
+<td><i class="far fa-clock"></i> April 22, 2019</td>
+<td></td>
+</tr>
+</table>
+<p class="blogt">What is SharedPreferences SharedPreferences is used for storing data key-value pair in the Android and iOS. SharedPreferences in flutter uses NSUserDefaults on iOS and 
+  SharedPreferences on Android, providing a persistent store for simple data. Why use SharedPreferences in Flutter? Suppose you wanna save a small value (a flag probably) that you wanna 
+  refer later sometime when…</p>
+<button type="button mt-1" class="btn btn-primary">Read More</button>
+</div>
+
+<div class="col-lg-4 mt3"> 
+  <div class="p-2">
+    <img src="assets/images/w3.png" class="wimg" alt="">
+  </div>
+<h6 class="blogsh">MANAGING THE STATE OF A WIDGET USING BLOC | FLUTTER</h6>
+<table class="w-100">
+<tr>
+<td><i class="fas fa-user-edit"></i> Ashish Rawat</td>
+<td><i class="fas fa-comment"></i> Leave A Comment</td>
+</tr>
+<tr>
+<td><i class="far fa-clock"></i> April 19, 2019</td>
+<td></td>
+</tr>
+</table>
+<p class="blogt">It’s very hectic to manage state in flutter it when we have a complex UI and complex widget tree. Before we jump into the state handling using bloc you need to understand about
+ state management. Why we need State management Whenever we perform an operation on the widgets, suppose we have a RaiseButton and whenever…</p>
+ <button type="button mt-1" class="btn btn-primary">Read More</button>
+</div>
+
+</div>
+</div>
+
+<!----------------------------------------------------------------------------------- Contact Me----------------------------------------------------------------------------------------------->
+
+<div class="container-fluid contactus" id="contact">
+
+<h6 class="formh">Contact Us</h6>
+
+<div class="row">
+<div class="col-lg-6"></div>
+
+<div class="col-lg-6">
+  <section class="contact-wrap">
+    <form action="" class="contact-form">
+      <div class="row">
+      <div class="col-sm-6 mt5 contactmh">
+        <div class="input-block">
+          <label for="" style="color: #09589d; font-weight: bold;">First Name</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="input-block mt5">
+          <label for="" style="color: #09589d; font-weight: bold;">Last Name</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12 mt3">
+        <div class="input-block">
+          <label for="" style="color: #09589d; font-weight: bold;">Email</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12 mt3">
+        <div class="input-block">
+          <label for="" style="color: #09589d; font-weight: bold;">Message Subject</label>
+          <input type="text" class="form-control">
+        </div>
+      </div>
+      <div class="col-sm-12 mt3">
+        <div class="input-block textarea">
+          <label for="" style="color: #09589d; font-weight: bold;">Drop your message here</label>
+          <textarea rows="3" type="text" class="form-control"></textarea>
+        </div>
+      </div>
+      <div class="col-sm-12 text-center">
+        <button type="button " class="btn btn-primary mt3" style="width:100px;">Send</button>
+      </div>
+    </div>
+    </form>
+  </section>
+</div>
+
+
+  </div>
+</div>
+
+
+</body>
+</html>
